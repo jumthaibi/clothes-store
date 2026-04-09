@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Send Message</title>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+<input type="text" id="text">
+<button id="sendBtn">Send Message</button>
+    <input name="fsrch" id="fsrch" placeholder="Search W3Schools">
+
+<script>
+  // حطي ال Public Key تبعك هون
+  var message = document.getElementById("text");
+  emailjs.init("MAhwKHJbq_8JNZg9l");
+
+  document.getElementById("sendBtn").addEventListener("click", function() {
+
+    let params = {
+      message: message.value
+    };
+
+    emailjs.send("service_puilcip", "template_3794cmf", params)
+      .then(function(response) {
+        alert("Message sent successfully!");
+      }, function(error) {
+        alert("Failed to send message.");
+      });
+
+  });
+</script>
+
+</body>
+</html>

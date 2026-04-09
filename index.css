@@ -1,0 +1,505 @@
+@font-face {
+    font-family: 'Brittany';
+    src: url('brittany-signature-script.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size:30px;
+}
+
+.navbar .nav-link{
+    color: black !important;
+}
+
+.navbar .nav-link:hover{
+    color: #2a7988 !important;
+}
+
+nav{
+    background-color: white ;
+}
+
+.navbar-brand:hover {
+    color: #2a7988!important;
+}
+
+#shop-name{
+    position: absolute;
+    left: 59%;
+    top: 25%;
+    font-size: 60px;
+    font-family: 'Brittany';
+    color: #af2421;
+}
+
+#title2{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+#title3{
+    position: absolute;
+    left: 50%;
+    top : 65%;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#main-button{
+    position: absolute;
+    left: 58.5%;
+    top: 75%;
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    border-color: none;
+    background-color: #af2421;
+    border: none;
+}
+
+#main-button:hover{
+    background-color: #ac3f3d;
+}
+
+#a-button{
+    color : white!important;
+    text-decoration: none!important;
+}
+
+#a-button:hover{
+    color: #fff4ea!important;
+}
+
+.two{
+    background-color: #fff4ea;
+    padding-top: 85px;
+}
+
+.cart:hover{
+    transform: scale(0.95);
+}
+
+#cart-img:hover{
+    transform: scale(0.95);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.three{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    background-color: #f4f6fc;
+    align-items: center;
+    justify-content: center;
+}
+
+.collection-img{
+    width: 250px;
+    height: 300px;
+}
+
+.collection{
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+}
+
+.collection:hover{
+    transform: scale(0.98);
+}
+
+.collection-link {
+    text-decoration: none !important;
+    color: black !important;      
+}
+
+.collection-link:hover{
+    color: #2a7988!important;
+}
+
+.four{
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+    gap: 100px;
+    padding-bottom: 90px;
+    background-color: #f4f6fc;
+    align-items: center;
+    justify-content: center;
+}
+
+.five{
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    gap: 50px;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.six{
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    gap: 50px;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.seven{
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    gap: 50px;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.eight{
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    gap: 50px;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.nine{
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    gap: 50px;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.element-img{
+    width: 200px;
+    height: 250px;
+}
+.element{
+    text-align: center;
+    background-color: #f4f6fc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 215px;
+    
+}
+
+#add-button{
+    border-radius: 20px;
+    border: none!important;
+    background-color:hsl(190, 53%, 35%);
+    color: white;
+    margin-top: 5px;
+    width: 200px;
+    height: 35px;
+}
+
+#add-button:hover{
+    background-color: #39a9c0;
+    transform: scale(0.98);
+}
+
+h5{
+    margin: 10px;
+}
+
+select{
+    margin-bottom: 10px;
+}
+
+.total{
+    color: #2a7988;
+}
+
+.ten{
+    margin: 5%;
+    padding : 15px;
+    border-style:dotted ;
+    border-width: 5px;
+    border-color:#fff4ea ;
+    border-radius: 30px;
+}
+
+.confirm{
+    margin: 5%;
+    padding : 15px;
+}
+
+.title{
+    text-align: center!important;
+    margin-top: 100px;
+    margin-bottom: -100px!important;
+    color: #c9c0b9;
+}
+
+.btn{
+    border-radius: 50%;
+    background-color: #1e92a9;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    border-color:#a8a099;
+    border-width: 2px;
+}
+
+.btn:hover{
+    background-color: #6dc1d2;
+}
+
+.order-btn{
+    border-radius: 30px;
+    background-color:#1e92a9;
+    color:#fff4ea;
+    padding: 15px;
+    width: 220px;
+    font-weight: bolder;
+    border: none;
+}
+
+.order-btn:hover{
+    background-color: #39a9c0;
+}
+
+.final-img{
+    height: 450px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.final-page{
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(223, 234, 236, 1) 56%, rgba(126, 172, 181, 1) 100%);
+    position: relative;
+    height: 600px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.one-line{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+    position: absolute;
+    left: 30%;
+    bottom: 20%;
+    color: black;
+    font-family: 'Brittany';
+
+}
+
+.shop-name{
+    color: #af2421;
+    
+}
+
+@media(max-width:1200px){
+    .five {
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+    }
+    .six {
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+    }
+    .seven {
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+    }
+    .eight {
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+    }
+    .nine {
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+    }
+}
+
+@media(max-width:965px){
+    .first-img{
+        width: 350px;
+        position: absolute;
+        bottom: 0%;
+    }
+    .two{
+        height: 600px;
+        padding: 0px;
+    }
+    #shop-name{
+        font-size: 40px;
+        position: absolute;
+        left: 65%;
+    }
+    #title2{
+        font-size: 30px;
+        position: absolute;
+        left: 57%;
+    }
+    #title3{
+        font-size: 15px;
+        position: absolute;
+        left: 51%;
+        top: 55%;
+    }
+    #main-button{
+        font-size: 15px;
+        width: 170px;
+        position: absolute;
+        left: 62%;
+        top: 65%;
+    }
+    .three,
+    .four{
+        display: grid;
+        grid-template-columns: repeat(1,200px);
+    }
+    .five,
+    .six,
+    .seven,
+    .eight,
+    .nine {
+        display: grid;
+        grid-template-columns: repeat(2,200px);
+    }  
+    .final-img{
+        height: 300px;
+    }
+    .final-page h6{
+        font-size: 15px;
+    }
+    .final-page h3{
+        font-size: 20px;
+    }
+    .final-page{
+        padding: 40px;
+    }
+    .one-line{
+        display: block;
+        position: absolute;
+        left: 10%;
+        bottom: 15%;
+    }
+    .one-line h1{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+    }
+    h1.title{
+        text-align: center!important;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:675px){
+    .first-img{
+        width: 200px;
+        position: absolute;
+        bottom: 0%;
+    }
+    .two{
+        height: 600px;
+    }
+    #shop-name{
+        font-size: 40px;
+        left: 40%;
+    }
+    #title2{
+        font-size: 20px;
+        left: 35%;
+        top: 35%;
+    }
+    #title3{
+        font-size: 13px;
+        left: 25%;
+        top: 45%;
+    }
+    #main-button{
+        font-size: 15px;
+        width: 150px;
+        left: 36%;
+        top: 55%;
+    }
+    .collection{
+        width: 200px;
+        height: 300px;
+    }
+    .collection-img{
+        width: 200px;
+        height: 250px;
+    }
+    .order-btn{
+        width: 150px;
+    }
+    .five,
+    .six,
+    .seven,
+    .eight,
+    .nine {
+        display: grid;
+        grid-template-columns: repeat(1,200px);
+    }
+    .confirm h3{
+        font-size: 20px;
+    }
+    .ten h2,.ten h3{
+        font-size: 20px;
+    }
+    .final-img{
+        height: 250px;
+    }
+
+    .final-page h6{
+        font-size: 10px;
+    }
+    .final-page h3{
+        font-size: 15px;
+    }
+    .final-page{
+        padding: 40px;
+    }
+    .one-line{
+        display: block;
+        position: absolute;
+        left: 10%;
+        bottom: 15%;
+    }
+    .one-line h1{
+        font-size: 30px;
+    }
+    h1.title{
+        text-align: center!important;
+    }
+}
+
+@media(max-width:465px){
+    .confirm h3{
+        font-size:10px
+    }
+}
