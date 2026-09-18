@@ -1,5 +1,4 @@
-<img width="589" height="882" alt="image" src="https://github.com/user-attachments/assets/394a6b2e-98fd-4df3-9198-3eb23a4baecc" /># Clothes Store
-
+## Aurielle clothes-store
 A PHP and MySQL e-commerce site for browsing and ordering clothes, with a customer-facing storefront and an admin panel for managing products and orders.
 
 ## Features
